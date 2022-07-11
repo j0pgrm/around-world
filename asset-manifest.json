@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/around-world/static/css/main.722289d2.css",
+    "main.js": "/around-world/static/js/main.e4593f6c.js",
+    "static/js/787.7bcae279.chunk.js": "/around-world/static/js/787.7bcae279.chunk.js",
+    "index.html": "/around-world/index.html",
+    "main.722289d2.css.map": "/around-world/static/css/main.722289d2.css.map",
+    "main.e4593f6c.js.map": "/around-world/static/js/main.e4593f6c.js.map",
+    "787.7bcae279.chunk.js.map": "/around-world/static/js/787.7bcae279.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.722289d2.css",
+    "static/js/main.e4593f6c.js"
+  ]
+}
