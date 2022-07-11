@@ -4,6 +4,8 @@ import '../search.scss';
 import { locationObj } from './LocationData'; 
 import { Link } from 'react-router-dom';  
 import { useParams, useNavigate } from "react-router-dom"; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'; 
 
 function Search() { 
 
@@ -95,7 +97,7 @@ function Search() {
 
             <form className="search-input-container" onChange={onChangeSearch} onSubmit={onSubmitSearch}> 
                 <button type="submit">
-                    <img alt="" src="https://rubiojason.github.io/Around-The-World/static/media/SearchIcon.e1a3c478.svg" />
+                    <FontAwesomeIcon icon={faMagnifyingGlass} color="white" style={{width: '20px', height: '20px'}} /> 
                 </button>
                 <input placeholder="Search Location" /> 
                 <div className="input-error" style={{opacity: searchErrorVisible ? 1 : 0}}>Invalid Search Value</div>
